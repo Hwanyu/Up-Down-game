@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:background="#C1FFACAC"
+            android:gravity="center"
+            android:text="현재 입력된 값"
+            android:textSize="50dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/now"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center"
+            android:layout_margin="50dp"
+            android:background="#C19F9F9F"
+            android:gravity="center"
+            android:textSize="70dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="400dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:background="#90959595"
+            android:gravity="center"
+            android:text="돌아가기"
+            android:textSize="40dp" />
+    </LinearLayout>
+</LinearLayout>
